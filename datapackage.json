@@ -1,0 +1,55 @@
+{
+  "title": "NATO Phonetic Alphabet",
+  "name": "Nato-phonetic-alphabet",
+  "homepage": "http://en.wikipedia.org/wiki/NATO_phonetic_alphabet",
+  "version": "0.1.0",
+  "license": "PDDL-1.0",
+  "sources": [{
+  "name": "International Civil Aviation Organization, Aeronautical Telecommunications: Annex 10 to the Convention on International Civil Aviation, Volume II (Fifth edition, 1995), Chapter 5, 38–40"
+  },
+  {
+  "name": "Military Phonetic Alphabet by US Army",
+  "web": "http://army.com/info/alphabet"
+  },
+  {
+  "name": "ITU Phonetic alphabet and Figure code",
+  "web": "http://life.itu.ch/radioclub/rr/ap14.htm"
+  },
+  {
+  "name": "ICAO Phonetics in the FAA ATC Manual",
+  "web": "http://www.faa.gov/air_traffic/publications"
+  }  
+  ],
+  "resources": [
+    {
+      "name": "nato-phonetic-alphabet.csv",
+      "path": "data/nato-phonetic-alphabet.csv",
+	  "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+      "fields": [
+		  {
+            "name": "Letter",
+            "type": "string"
+          },
+		  {
+            "name": "Code_word",
+            "type": "string"
+          },
+          {
+            "name": "US_Army_pro",
+            "type": "string"
+          },
+		  {
+            "name": "ICAO_ITU_pro",
+            "type": "string"
+          },
+          {
+            "name": "FAA_pro",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}
