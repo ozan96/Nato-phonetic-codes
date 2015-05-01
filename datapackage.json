@@ -23,7 +23,7 @@
   "resources": [
     {
       "name": "nato-phonetic-alphabet.csv",
-      "path": "data/nato-phonetic-alphabet.csv",
+      "path": "data/Nato-phonetic-alphabet.csv",
 	  "format": "csv",
       "mediatype": "text/csv",
       "schema": {
